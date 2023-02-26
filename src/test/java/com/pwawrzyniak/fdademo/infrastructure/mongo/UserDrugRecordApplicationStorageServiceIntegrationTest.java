@@ -99,7 +99,7 @@ class UserDrugRecordApplicationStorageServiceIntegrationTest extends Integration
   }
 
   @Test
-  void shouldFindUserDrugRecordApplications() {
+  void shouldFindUserDrugRecordApplicationsByManufacturerNameAndSubstanceName() {
     // given
     storeMultipleUserDrugRecordApplications();
 
@@ -112,6 +112,40 @@ class UserDrugRecordApplicationStorageServiceIntegrationTest extends Integration
     assertThat(userDrugRecordApplicationPage.getContent())
         .usingRecursiveComparison()
         .isEqualTo(List.of(userDrugRecordApplication("applicationNumber8", "manufacturerName2", "substanceName2")));
+  }
+
+  @Test
+  void shouldFindUserDrugRecordApplicationsByManufacturerName() {
+    // given
+    storeMultipleUserDrugRecordApplications();
+
+    // when
+    Page<UserDrugRecordApplication> userDrugRecordApplicationPage = userDrugRecordApplicationStorageOperations.findByManufacturerNameAndSubstanceName("manufacturerName2", null, PageRequest.of(1, 2));
+
+    // then
+    assertThat(userDrugRecordApplicationPage.getPageable()).isEqualTo(PageRequest.of(1, 2));
+    assertThat(userDrugRecordApplicationPage.getTotalElements()).isEqualTo(5);
+    assertThat(userDrugRecordApplicationPage.getContent())
+        .usingRecursiveComparison()
+        .isEqualTo(List.of(userDrugRecordApplication("applicationNumber8", "manufacturerName2", "substanceName2"),
+            userDrugRecordApplication("applicationNumber9", "manufacturerName2", "substanceName3")));
+  }
+
+  @Test
+  void shouldFindAllUserDrugRecordApplicationsWhenSearchCriteriaAreEmpty() {
+    // given
+    storeMultipleUserDrugRecordApplications();
+
+    // when
+    Page<UserDrugRecordApplication> userDrugRecordApplicationPage = userDrugRecordApplicationStorageOperations.findByManufacturerNameAndSubstanceName(null, null, PageRequest.of(1, 2));
+
+    // then
+    assertThat(userDrugRecordApplicationPage.getPageable()).isEqualTo(PageRequest.of(1, 2));
+    assertThat(userDrugRecordApplicationPage.getTotalElements()).isEqualTo(10);
+    assertThat(userDrugRecordApplicationPage.getContent())
+        .usingRecursiveComparison()
+        .isEqualTo(List.of(userDrugRecordApplication("applicationNumber3", "manufacturerName1", "substanceName1"),
+            userDrugRecordApplication("applicationNumber4", "manufacturerName1", "substanceName2")));
   }
 
   private void storeMultipleUserDrugRecordApplications() {
