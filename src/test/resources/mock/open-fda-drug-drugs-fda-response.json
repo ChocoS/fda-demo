@@ -1,0 +1,451 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2023-02-21",
+    "results": {
+      "skip": 4,
+      "limit": 2,
+      "total": 6
+    }
+  },
+  "results": [
+    {
+      "submissions": [
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "6",
+          "submission_status": "AP",
+          "submission_status_date": "20111018",
+          "review_priority": "PRIORITY",
+          "submission_class_code": "EFFICACY",
+          "submission_class_code_description": "Efficacy",
+          "application_docs": [
+            {
+              "id": "38177",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2011/022065s006lbl.pdf",
+              "date": "20111020",
+              "type": "Label"
+            },
+            {
+              "id": "51941",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/22065_ixabepilone_Original_WR.pdf",
+              "date": "20110405",
+              "type": "Pediatric Written Request"
+            },
+            {
+              "id": "51942",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/22065_ixabepilone_Amendment_1.pdf",
+              "date": "20110405",
+              "type": "Pediatric Amendment 1"
+            },
+            {
+              "id": "51943",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/22065_ixabepilone_Amendment_2.pdf",
+              "date": "20110405",
+              "type": "Pediatric Amendment 2"
+            },
+            {
+              "id": "52937",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/22065_ixabepilone_statistical_BPCA.pdf",
+              "date": "20110405",
+              "type": "Pediatric Statistical Review"
+            },
+            {
+              "id": "52938",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/22065_ixabepilone_clinpharm_BPCA.pdf",
+              "date": "20110405",
+              "type": "Pediatric Clinical Pharmacology Review"
+            },
+            {
+              "id": "52939",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/22065_ixabepilone_clinical_BPCA.pdf",
+              "date": "20110405",
+              "type": "Pediatric Medical Review"
+            },
+            {
+              "id": "64238",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/pediatric/22065S006-Ixempra---Ixabepilone-Clinical-PREA.pdf",
+              "date": "19000101",
+              "type": "Pediatric Medical Review"
+            },
+            {
+              "id": "6805",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2011/022065s006ltr.pdf",
+              "date": "20111020",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "4",
+          "submission_status": "AP",
+          "submission_status_date": "20100512",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling",
+          "application_docs": [
+            {
+              "id": "38175",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2010/022065s004s005lbl.pdf",
+              "date": "20100517",
+              "type": "Label"
+            },
+            {
+              "id": "29186",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2010/022065s004,s005ltr.pdf",
+              "date": "20100517",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "2",
+          "submission_status": "AP",
+          "submission_status_date": "20091002",
+          "review_priority": "STANDARD",
+          "submission_class_code": "EFFICACY",
+          "submission_class_code_description": "Efficacy",
+          "application_docs": [
+            {
+              "id": "16874",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2009/022065s002lbl.pdf",
+              "date": "20091007",
+              "type": "Label"
+            },
+            {
+              "id": "29185",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2009/022065s002,s003ltr.pdf",
+              "date": "20091013",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "13",
+          "submission_status": "AP",
+          "submission_status_date": "20230111",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling",
+          "application_docs": [
+            {
+              "id": "73144",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/022065orig1s013ltr.pdf",
+              "date": "20230112",
+              "type": "Letter"
+            },
+            {
+              "id": "73147",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2023/022065s013lbl.pdf",
+              "date": "20230113",
+              "type": "Label"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "11",
+          "submission_status": "AP",
+          "submission_status_date": "20220121",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling",
+          "application_docs": [
+            {
+              "id": "69956",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/022065Orig1s011ltr.pdf",
+              "date": "20220125",
+              "type": "Letter"
+            },
+            {
+              "id": "69967",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2022/022065Orig1s011lbl.pdf",
+              "date": "20220125",
+              "type": "Label"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "9",
+          "submission_status": "AP",
+          "submission_status_date": "20160726",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "5",
+          "submission_status": "AP",
+          "submission_status_date": "20100512",
+          "review_priority": "UNKNOWN",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling",
+          "application_docs": [
+            {
+              "id": "38176",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2010/022065s004s005lbl.pdf",
+              "date": "20100517",
+              "type": "Label"
+            },
+            {
+              "id": "6804",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2010/022065s004,s005ltr.pdf",
+              "date": "20100517",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "3",
+          "submission_status": "AP",
+          "submission_status_date": "20091002",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling",
+          "application_docs": [
+            {
+              "id": "6803",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2009/022065s002,s003ltr.pdf",
+              "date": "20091013",
+              "type": "Letter"
+            },
+            {
+              "id": "16875",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2009/022065s002lbl.pdf",
+              "date": "20091007",
+              "type": "Label"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20090313",
+          "review_priority": "N/A",
+          "submission_class_code": "MANUF (CMC)",
+          "submission_class_code_description": "Manufacturing (CMC)",
+          "application_docs": [
+            {
+              "id": "38174",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2009/022065s001lbl.pdf",
+              "date": "20090403",
+              "type": "Label"
+            },
+            {
+              "id": "6802",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2009/022065s001ltr.pdf",
+              "date": "20090317",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "10",
+          "submission_status": "AP",
+          "submission_status_date": "20161222",
+          "review_priority": "STANDARD",
+          "submission_class_code": "MANUF (CMC)",
+          "submission_class_code_description": "Manufacturing (CMC)"
+        },
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20071016",
+          "review_priority": "PRIORITY",
+          "submission_class_code": "TYPE 1",
+          "submission_class_code_description": "Type 1 - New Molecular Entity",
+          "application_docs": [
+            {
+              "id": "42406",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/nda/2007/022065TOC.cfm",
+              "date": "20080324",
+              "type": "Review"
+            },
+            {
+              "id": "16873",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/label/2007/022065lbl.pdf",
+              "date": "20071017",
+              "type": "Label"
+            },
+            {
+              "id": "29184",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2007/022065s000ltr.pdf",
+              "date": "20071022",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "8",
+          "submission_status": "AP",
+          "submission_status_date": "20150120",
+          "review_priority": "PRIORITY",
+          "submission_class_code": "MANUF (CMC)",
+          "submission_class_code_description": "Manufacturing (CMC)"
+        }
+      ],
+      "application_number": "NDA022065",
+      "sponsor_name": "R-PHARM US LLC",
+      "openfda": {
+        "application_number": [
+          "NDA022065"
+        ],
+        "brand_name": [
+          "IXEMPRA"
+        ],
+        "generic_name": [
+          "IXABEPILONE"
+        ],
+        "manufacturer_name": [
+          "R-Pharm US Operating, LLC"
+        ],
+        "product_ndc": [
+          "70020-1910",
+          "70020-1911"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "rxcui": [
+          "1726271",
+          "1726274",
+          "1726276",
+          "1726278"
+        ],
+        "spl_id": [
+          "f316ca9e-c6df-3ee3-e053-2995a90a7e67"
+        ],
+        "spl_set_id": [
+          "241f0b1e-8b95-470d-876f-bf1804daaf18"
+        ],
+        "package_ndc": [
+          "70020-1910-1",
+          "70020-1911-1"
+        ],
+        "route": [
+          "INTRAVENOUS"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "002",
+          "reference_drug": "Yes",
+          "brand_name": "IXEMPRA KIT",
+          "active_ingredients": [
+            {
+              "name": "IXABEPILONE",
+              "strength": "45MG/VIAL"
+            }
+          ],
+          "reference_standard": "Yes",
+          "dosage_form": "INJECTABLE",
+          "route": "INTRAVENOUS",
+          "marketing_status": "Prescription"
+        },
+        {
+          "product_number": "001",
+          "reference_drug": "Yes",
+          "brand_name": "IXEMPRA KIT",
+          "active_ingredients": [
+            {
+              "name": "IXABEPILONE",
+              "strength": "15MG/VIAL"
+            }
+          ],
+          "reference_standard": "Yes",
+          "dosage_form": "INJECTABLE",
+          "route": "INTRAVENOUS",
+          "marketing_status": "Prescription"
+        }
+      ]
+    },
+    {
+      "submissions": [
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20221221",
+          "review_priority": "STANDARD",
+          "submission_class_code": "UNKNOWN"
+        }
+      ],
+      "application_number": "ANDA216131",
+      "sponsor_name": "HAINAN POLY",
+      "openfda": {
+        "application_number": [
+          "ANDA216131"
+        ],
+        "brand_name": [
+          "DOBUTAMINE"
+        ],
+        "generic_name": [
+          "DOBUTAMINE"
+        ],
+        "manufacturer_name": [
+          "Hainan Poly Pharm. Co., Ltd."
+        ],
+        "product_ndc": [
+          "14335-171",
+          "14335-172"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "INTRAVENOUS"
+        ],
+        "substance_name": [
+          "DOBUTAMINE HYDROCHLORIDE"
+        ],
+        "rxcui": [
+          "1812168",
+          "1812170"
+        ],
+        "spl_id": [
+          "f153e636-62ab-3b86-e053-2995a90a36c1"
+        ],
+        "spl_set_id": [
+          "9794e9d0-c8b7-4d18-8cd1-15cc4f2a9a55"
+        ],
+        "package_ndc": [
+          "14335-171-01",
+          "14335-172-01"
+        ],
+        "unii": [
+          "0WR771DJXV"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "DOBUTAMINE HYDROCHLORIDE",
+          "active_ingredients": [
+            {
+              "name": "DOBUTAMINE HYDROCHLORIDE",
+              "strength": "EQ 12.5MG BASE/ML"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "INJECTABLE",
+          "route": "INJECTION",
+          "marketing_status": "Prescription",
+          "te_code": "AP"
+        }
+      ]
+    }
+  ]
+}
